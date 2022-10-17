@@ -8,3 +8,4 @@ RUN apt-get update && \
   apt-get install -y wget && \
   apt-get install -y zsh && \
   apt-get clean
+RUN curl https://rclone.org/install.sh | bash
